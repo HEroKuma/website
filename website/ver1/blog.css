@@ -1,42 +1,5 @@
-body{
-	margin: 0px auto;
-}
-
-a{
-	text-decoration: none;
-}
-
-.banner a:link{
-	color: #000000;
-}
-
-.banner a:visited{
-	color: #000000;
-}
-
 .main_block img{
 	width: 100%;
-}
-
-.banner{
-	//background-color: #FFCC00;
-	height: 192px;
-	width: 980px;
-	margin: 0px auto;
-	text-align: center;
-}
-
-.list{
-	//background-color: #FF0000;
-	height: 46px;
-	margin: 0px auto;
-}
-
-.list_block{
-	font-family: verdana;
-	width: 400px;
-	height: 46px;
-	margin: 0px auto;
 }
 
 .guide{
@@ -54,17 +17,6 @@ a{
 	font-weight: bold;
 }
 
-#f_title{
-	font-size: 28px;
-	color: #445544;
-	margin-bottom: 8px;
-}
-
-#s_title{
-	font-size: 18px;
-	margin-top: 0px;
-}
-
 .main_block{
 	//background-color: #DDFFFF;
 	width: 980px;
@@ -77,22 +29,6 @@ a{
 	font-size: 22px;
 }
 
-.pic_table{
-	margin: 0px auto;
-	width: 980px;
-	height: 280px;
-}
-
-.pic_box{
-	//background-color: #AACCDD;
-	display: table-cell;
-	margin-top: 70px;
-	float: left;
-	max-width: 33.33%;
-	max-height: 190px;
-	overflow: hidden;
-}
-
 .intr2{
 	font-family: Open Sans;
 	font-weight: bold;
@@ -103,38 +39,4 @@ a{
 .intr3{
 	font-family: Enriqueta;
 	font-size: 21px;
-}
-
-.bottle_banner{
-	height: 50px;
-	width: 100%;
-	text-align: center;
-	background-color: #666666;
-	margin: 0px auto;
-}
-
-.bottle_list{
-	//background-color: #6666FF;
-	margin-left: 200px;
-	height: 100%;
-	width: 500px;
-}
-
-.bottle_guide{
-	//background-color: #CCCCCC;
-	width: 80px;
-	height: 46px;
-	text-align: center;
-	color: #dddddd;
-	margin: 0px auto;
-	padding: 0px auto;
-	display: table-cell;
-}
-
-.bottle_guide a:link{
-	color: #dddddd;
-}
-
-.bottle_guide a:visited{
-	color: #dddddd;
 }
