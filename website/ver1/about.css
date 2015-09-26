@@ -31,20 +31,32 @@
 	font-weight: normal;
 }
 
-.test{
-	 width: 110px;
-	 height: 56px;
-	 padding-top: 15px;
-	 position: relative;
-	 background: #0044CC;
-	 color: white;
-	 font-size: 11px;
-	 letter-spacing: 0.2em;
-	 text-align: center;
-	 text-transform: uppercase;
+.tag_block{
+	//background-color: #000000;
+	height: 40px;
+	width: 980px;
+	margin-top: 80px;
 }
 
-.test:after {
+.tag_title{
+	font-weight: bold;
+	font-size: 22px;
+	font-family: Open Sans;
+}
+
+.tag{
+	 width: 110px;
+	 height: 34px;
+	 float: left;
+	 padding-top: 15px;
+	 margin-left: 50px;
+	 position: relative;
+	 background: #5f5fff;
+	 color: white;
+	 text-align: center;
+}
+
+.tag:after {
   content: ' ';
   position: absolute;
   left: 0;
@@ -54,4 +66,13 @@
   border-bottom: 13px solid white;
   border-left: 55px solid transparent;
   border-right: 55px solid transparent;
+}
+
+.tag p{
+	//background-color: #000000;
+	font-size: 16px;
+	line-height: 14px;
+	letter-spacing: 0.1em;
+	font-family: Open Sans;
+	margin: -12px; 
 }
